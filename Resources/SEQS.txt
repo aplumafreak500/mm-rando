@@ -688,6 +688,12 @@ la-overworld
 tp-bugcastle
 3,4
 21
+tp-lakehylia
+1,2,3
+19
+ff9-treno
+1,3
+17
 bk-freezypeak
 0,4
 3
