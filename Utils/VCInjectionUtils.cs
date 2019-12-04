@@ -54,7 +54,7 @@ namespace MMRando.Utils
             PatchApp1(options.DPadConfig, VCDir);
             ProcessStartInfo p = new ProcessStartInfo
             {
-                FileName = "wadpacker.exe",
+                FileName = VCDir + "wadpacker",
                 Arguments = "mm.tik mm.tmd mm.cert \"" + FileName + "\" -i NMRE",
                 WorkingDirectory = VCDir
             };
